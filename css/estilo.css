@@ -1,0 +1,320 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(250, 249, 249);
+    background-color: rgb(23, 23, 23);
+}
+
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 35%;
+    background-image: url(../img/Background2.jpg);
+}
+
+.main-content {
+    width: 65%;
+    margin-left: 35%;
+}
+
+.instagram {
+    width: 100%;
+}
+
+.rds ul li img {
+    color: white;
+    padding: 2px 5px;
+    background-color: #ffd523;
+}
+
+.rds ul li img:hover {
+    /* background-color: #ffd523; */
+    color: cadetblue;
+    padding: 5px 5px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    padding: 5px 5px;
+    margin-left: 0px;
+}
+
+.title-bruno {
+    background-color: #ffd523;
+    width: 300px;
+    height: 40px;
+    margin-left: 120px;
+}
+
+.title-afonso {
+    background-color: #ffd523;
+    width: 300px;
+    height: 40px;
+    margin-left: 180px;
+    margin-bottom: 10px;
+
+}
+.title-Prof{
+    background-color: #ffd523;
+    width: 300px;
+    height: 40px;
+    margin-left: 120px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    justify-content: center;
+    margin: 5px 10px;
+    color: rgb(59, 59, 59);
+}
+
+h2 {
+    padding: 120px 100px 30px 100px;
+    font-size: 36px;
+    color: #ffd523;
+}
+
+h3 {
+    font-size: 25px;
+    padding: 5px;
+    text-align: center;
+    color: rgb(59, 59, 59);
+    background-color: #ffd523;
+}
+
+h4 {
+    font-size: 25px;
+    padding: 25px 0px 0px 0px;
+    text-align: center;
+    color: black;
+}
+
+h5 {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 0px;
+    margin-left: 30px;
+    margin-top: 35px;
+    width: 100px;
+    padding-top: 0px;
+}
+
+.input-name {
+    display: inline;
+}
+
+.boxclientes-inform p {
+    color: black;
+}
+
+.box {
+    /* background-color: rgb(94, 93, 93, .8); */
+    background-color: rgb(0,0, 0, .7);
+    width: 80%;
+    height: 365px;
+    margin-left: 10%;
+}
+
+.box p {
+    padding: 10px 25px 0px 25px;
+    line-height: 22px;
+    font-size: 20px;
+    text-align: justify;
+    
+}
+
+.foto-bruno {
+    margin-left: 10%;
+    margin-top: 0px;
+    flex-direction: row;
+}
+
+.foto-bruno img {
+    border-radius: 50%;
+    float: left;
+    margin: 0px 10px 5px;
+}
+
+.foto-afonso {
+    margin-right: 10%;
+    margin-top: 0px;
+    flex-direction: row;
+}
+
+.foto-afonso img {
+    float: right;
+    /* border: solid 4px #56BBF1; */
+    border-width: 5px solid;
+    border-style: solid;
+    border-radius: 50%;
+    color: #56BBF1;
+    /* border-image: linear-gradient(to right, #4D77FF, #56BBF1) 1; */
+   
+}
+
+.name-bruno {
+    margin-left: 100px;
+    margin-top: 0px;
+}
+
+.main-content-section {
+    width: 68%;
+    text-align: center;
+    margin-left: 15%;
+}
+
+.text-servicos {
+    padding: 15px 5px 30px 5px;
+}
+
+.google-img img {
+    padding: 15px 15px 15px 15px;
+}
+
+.facebook-img img {
+    padding: 15px 15px 15px 15px;
+}
+
+.boxclientes {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    padding: 0px 0px 5px 0px;
+}
+
+.logo-clientes {
+    display: inline-block;
+    text-align: center;
+}
+
+.logo-clientes li {
+    padding: 0px 20px 10px 20px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    height: 650px;
+}
+
+.registro-titulo {
+    width: 600px;
+    color: white;
+    padding: 20px 0px 10px 0px;
+    margin-left: 32%;
+}
+
+.conteudo {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 700px;
+    margin: auto;
+}
+
+.form {
+    width: 65%;
+    margin-left: 35%;
+    height: 700px;
+    background-color: rgb(2, 0, 0);
+    background-image: url(../img/Background3.jpg);
+    opacity: 0.7;
+}
+
+form {
+    padding: 5px;
+}
+.form-title{
+    color: #ffd523;
+    font-size: 35px;
+}
+
+.primeironome {
+    position: relative;
+    left: 75px;
+    top: -20px;
+    line-height: 30px;
+    width: 400px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.empresa {
+    position: relative;
+    left: 75px;
+    top: -20px;
+    line-height: 30px;
+    width: 400px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.E-mail {
+    position: relative;
+    left: 75px;
+    top: -20px;
+    line-height: 30px;
+    width: 400px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.Cargo {
+    position: relative;
+    left: 75px;
+    top: -20px;
+    line-height: 30px;
+    width: 400px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.number {
+    position: relative;
+    left: 75px;
+    top: -20px;
+    line-height: 30px;
+    width: 400px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #000000;
+    display: block;
+    margin: 20px 20px 20px 250px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid #266473;
+    padding: 14px 110px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.25px;
+}
+
+button:hover {
+    background-color: rgb(4, 118, 248);
+}
+
+.rodape-final {
+    background: rgb(22, 22, 22);
+    color: white;
+    widows: 65%;
+    margin-left: 35%;
+    height: 50px;
+    text-align: center;
+    padding: 5px 0px 10px 0px;
+}
