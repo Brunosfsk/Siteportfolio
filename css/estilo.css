@@ -9,6 +9,7 @@ body {
     top: 0;
     left: 0;
     width: 35%;
+    height: 650px;
     background-image: url(../img/Background2.jpg);
 }
 
@@ -50,20 +51,12 @@ li {
     margin-left: 120px;
 }
 
-.title-afonso {
-    background-color: #ffd523;
-    width: 300px;
-    height: 40px;
-    margin-left: 180px;
-    margin-bottom: 10px;
-
-}
 .title-Prof{
     background-color: #ffd523;
     width: 300px;
     height: 40px;
     margin-left: 120px;
-    margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 h1 {
@@ -74,7 +67,7 @@ h1 {
 }
 
 h2 {
-    padding: 120px 100px 30px 100px;
+    padding: 20px;
     font-size: 36px;
     color: #ffd523;
 }
@@ -89,7 +82,6 @@ h3 {
 
 h4 {
     font-size: 25px;
-    padding: 25px 0px 0px 0px;
     text-align: center;
     color: black;
 }
@@ -141,23 +133,6 @@ h5 {
     margin: 0px 10px 5px;
 }
 
-.foto-afonso {
-    margin-right: 10%;
-    margin-top: 0px;
-    flex-direction: row;
-}
-
-.foto-afonso img {
-    float: right;
-    /* border: solid 4px #56BBF1; */
-    border-width: 5px solid;
-    border-style: solid;
-    border-radius: 50%;
-    color: #56BBF1;
-    /* border-image: linear-gradient(to right, #4D77FF, #56BBF1) 1; */
-   
-}
-
 .name-bruno {
     margin-left: 100px;
     margin-top: 0px;
@@ -173,24 +148,32 @@ h5 {
     padding: 15px 5px 30px 5px;
 }
 
-.google-img img {
+.portfolio-img img {
     padding: 15px 15px 15px 15px;
 }
 
-.facebook-img img {
+.portfolio-img {
+    display: flex;
+    padding: 15px 15px 15px 15px;
+    border: 1px solid #ffd523;
+}
+
+.sistemas-img img {
     padding: 15px 15px 15px 15px;
 }
 
 .boxclientes {
+    margin-top: 50px;
     width: 100%;
-    height: 300px;
+    height: 170px;
     background-color: white;
-    padding: 0px 0px 5px 0px;
+    padding-top: 1px;
 }
 
-.logo-clientes {
-    display: inline-block;
+.logo-stacks {
+    display: flex;
     text-align: center;
+    justify-content: space-around;
 }
 
 .logo-clientes li {
@@ -203,7 +186,6 @@ footer {
     text-align: center;
     width: 100%;
     background-color: black;
-    height: 650px;
 }
 
 .registro-titulo {
@@ -312,8 +294,6 @@ button:hover {
 .rodape-final {
     background: rgb(22, 22, 22);
     color: white;
-    widows: 65%;
-    margin-left: 35%;
     height: 50px;
     text-align: center;
     padding: 5px 0px 10px 0px;
