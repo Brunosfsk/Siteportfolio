@@ -176,14 +176,16 @@ h5 {
 }
 
 .portfolio-img img {
-    padding: 15px 15px 15px 15px;
+    padding: 15px 0;
 }
 
 .portfolio-img {
     display: flex;
-    padding: 15px 15px 15px 15px;
+    justify-content: space-around;
     border: 1px solid #ffd523;
     box-shadow: 0 0 1em #ffd523;
+    width: auto;
+    margin-top: 50px;
 }
 
 .sistemas-img img {
