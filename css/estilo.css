@@ -3,7 +3,31 @@ body {
     color: rgb(250, 249, 249);
     background-color: rgb(23, 23, 23);
     margin: 0;
+    font-size: 1.6rem;
 }
+
+html {
+    font-size: 62.5%;
+    
+}
+
+a {
+    color: black;
+}
+
+i {
+    padding: 0.6rem;
+    font-size: 25px;
+}
+
+.box-info p:hover {
+    color: #ffd523;
+    cursor: pointer;
+}
+
+/* svg {
+    size: 25px;
+} */
 
 .main-header {
     position: fixed;
@@ -23,17 +47,38 @@ body {
     width: 100%;
 }
 
-.rds ul li img {
+.redesSociais {
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    height: auto;
+    padding: 5px;
+    color: black;
+    margin-left: 2.5rem;
+}
+
+.redesSociais i {
+   font-size: 3.2rem;
+   background-color: #ffd523;
+   padding: 0.3rem;
+}
+
+.redesSociais i:hover {
+    background-color: black;
+    color: #ffd523;
+    cursor: pointer;
+ }
+
+/* .rds ul li img {
     color: white;
     padding: 2px 5px;
     background-color: #ffd523;
 }
 
 .rds ul li img:hover {
-    /* background-color: #ffd523; */
     color: cadetblue;
     padding: 5px 5px;
-}
+} */
 
 ul {
     list-style: none;
@@ -84,7 +129,8 @@ h3 {
 h4 {
     font-size: 25px;
     text-align: center;
-    color: black;
+    color: white;
+    margin: 0;
 }
 
 h5 {
@@ -179,6 +225,10 @@ h5 {
     padding: 15px 0;
 }
 
+.portfolio-img img:hover {
+    transform: scale(1.4, 1.4);
+}
+
 .portfolio-img {
     display: flex;
     justify-content: space-around;
@@ -193,17 +243,18 @@ h5 {
 }
 
 .boxclientes {
-    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
     width: 100%;
-    height: 170px;
+    height: 100px;
     background-color: white;
-    padding-top: 1px;
 }
 
-.logo-stacks {
-    display: flex;
-    text-align: center;
-    justify-content: space-around;
+.logo-stacks img {
+    padding: 0 2.5em;
+
 }
 
 footer {
@@ -212,107 +263,41 @@ footer {
     background-color: black;
 }
 
-.registro-titulo {
+/* .registro-titulo {
     width: 600px;
     color: white;
     padding: 20px 0px 10px 0px;
     margin-left: 32%;
-}
+} */
 
-.conteudo {
+.contato {
+    display: flex;
+    flex-direction: column;
     background-color: rgba(0, 0, 0, 0.75);
-    width: 700px;
+    width: 100%;
+    height: 180px;
     margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 
-.form {
-    width: 65%;
-    margin-left: 35%;
-    height: 700px;
-    background-color: rgb(2, 0, 0);
-    background-image: url(../img/Background3.jpg);
-    opacity: 0.7;
+.box-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    height: auto;
+    width: auto;
 }
 
-form {
-    padding: 5px;
-}
-.form-title{
-    color: #ffd523;
-    font-size: 35px;
+.box-info p {
+    padding-right: 50px;
 }
 
-.primeironome {
-    position: relative;
-    left: 75px;
-    top: -20px;
-    line-height: 30px;
-    width: 400px;
-    border-radius: 6px;
-    padding: 0 22px;
-    font-size: 16px;
-}
-
-.empresa {
-    position: relative;
-    left: 75px;
-    top: -20px;
-    line-height: 30px;
-    width: 400px;
-    border-radius: 6px;
-    padding: 0 22px;
-    font-size: 16px;
-}
-
-.E-mail {
-    position: relative;
-    left: 75px;
-    top: -20px;
-    line-height: 30px;
-    width: 400px;
-    border-radius: 6px;
-    padding: 0 22px;
-    font-size: 16px;
-}
-
-.Cargo {
-    position: relative;
-    left: 75px;
-    top: -20px;
-    line-height: 30px;
-    width: 400px;
-    border-radius: 6px;
-    padding: 0 22px;
-    font-size: 16px;
-}
-
-.number {
-    position: relative;
-    left: 75px;
-    top: -20px;
-    line-height: 30px;
-    width: 400px;
-    border-radius: 6px;
-    padding: 0 22px;
-    font-size: 16px;
-}
-
-button {
-    background-color: #000000;
-    display: block;
-    margin: 20px 20px 20px 250px;
+.box-geral {
+    display: flex;
+    height: auto;
+    width: auto;
     text-align: center;
-    border-radius: 12px;
-    border: 2px solid #266473;
-    padding: 14px 110px;
-    outline: none;
-    color: white;
-    cursor: pointer;
-    transition: 0.25px;
-}
-
-button:hover {
-    background-color: rgb(4, 118, 248);
 }
 
 .rodape-final {
@@ -321,4 +306,93 @@ button:hover {
     height: 50px;
     text-align: center;
     padding: 5px 0px 10px 0px;
+    font-size: 1.6rem;
 }
+
+.cabecalho-mobile {
+    display: none;
+}
+
+/* Responsividade mobile */
+
+@media only screen and (max-width: 600px){
+    
+    body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-header {
+        display: flex;
+        flex-direction: column;
+        position: static;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        background-image: url(../img/Background2.jpg);
+        background-size: 100%;
+    }
+
+    .box {
+        width: 80%;
+        height: 265px;
+    }
+
+    .main-content {
+        width: 100%;
+        margin: 0;
+    }
+
+    .cabecalho {
+        display: none;
+    
+    }
+
+    .cabecalho-mobile {
+        display: flex;
+        background: black;
+        color: white;
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .cabecalho-mobile a {
+        color: white;
+        padding: 0 .2em;
+        text-align: center;
+        align-items: center;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .cabecalho-mobile a:hover {
+        background: #ffd523;
+        color: black;
+        padding: 15px 75px;
+    }
+
+    .main-content-section {
+        width: 80%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .portfolio-img img:hover{
+        width: 90%;
+        height: 90%;
+    }
+    
+
+    
+    
+
+
+
+}
+
