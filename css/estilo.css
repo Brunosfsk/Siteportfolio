@@ -356,7 +356,7 @@ footer {
 
     .box {
         width: 80%;
-        height: 265px;
+        height: auto;
     }
     
     .main-content-section {
