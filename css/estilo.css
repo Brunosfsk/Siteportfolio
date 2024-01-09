@@ -74,16 +74,22 @@ li {
 }
 
 .title-bruno {
-    background-color: #ffd523;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
     width: 300px;
     height: 40px;
     margin-left: 120px;
 }
 
 .title-Prof{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #ffd523;
-    width: 300px;
-    height: 40px;
+    width: 250px;
+    height: 25px;
     margin-left: 120px;
     margin-top: 5px;
 }
@@ -96,9 +102,8 @@ h1 {
 }
 
 h2 {
-    padding: 20px;
-    font-size: 36px;
-    color: #ffd523;
+    font-size: 25px;
+    color: rgb(59, 59, 59);
 }
 
 h3 {
@@ -436,11 +441,19 @@ footer {
         padding: 15px 10px 30px 10px;
         width: 80%;
     }
-
     
+    .rodape-final {
+        padding: 10px;
+    }
     
+    .box-info {
+        padding-inline: 0;
+    }
 
 
 
 }
+
+
+
 
